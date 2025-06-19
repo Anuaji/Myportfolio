@@ -5,7 +5,7 @@ const About = () => {
   const highlights = [
     {
       icon: <Code className="text-blue-600" size={24} />,
-      title: "Full Stack Development",
+      title: "Full Stack Developments",
       description: "Expertise in MERN stack with modern development practices"
     },
     {
