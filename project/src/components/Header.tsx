@@ -30,7 +30,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href="#home" className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
-              Ajith Kumar
+              Anoop Ajith
             </a>
           </div>
 
