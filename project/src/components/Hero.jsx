@@ -19,7 +19,7 @@ const Hero = () => {
                 Full Stack Developer (MERN)
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
-                Passionate about creating customized solutions with 2.7+ years of experience 
+                Passionate about creating customized solutions with 3 .1 + years of experience 
                 providing quality support to companies. Currently working at Advisorkhoj, 
                 building innovative web applications with modern technologies.
               </p>
@@ -85,7 +85,7 @@ const Hero = () => {
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg">2.7Y</span>
+                <span className="text-white font-bold text-lg">3.1 Y</span>
               </div>
             </div>
           </div>
