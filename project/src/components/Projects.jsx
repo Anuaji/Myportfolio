@@ -61,7 +61,7 @@ const Projects = () => {
     }
   ];
 
-  const getStatusColor = (status: string) => {
+  const getStatusColor = (status) => {
     switch (status) {
       case 'Featured Project':
         return 'bg-purple-100 text-purple-800';

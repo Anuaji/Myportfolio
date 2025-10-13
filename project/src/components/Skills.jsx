@@ -49,12 +49,13 @@ const Skills = () => {
     }
   ];
 
-  const getSkillColor = (level: number) => {
-    if (level >= 90) return 'bg-green-500';
-    if (level >= 80) return 'bg-blue-500';
-    if (level >= 70) return 'bg-yellow-500';
-    return 'bg-red-500';
-  };
+const getSkillColor = (level) => {
+  if (level >= 90) return 'bg-green-500';
+  if (level >= 80) return 'bg-blue-500';
+  if (level >= 70) return 'bg-yellow-500';
+  return 'bg-red-500';
+};
+
 
   return (
     <section id="skills" className="py-20 bg-white">
