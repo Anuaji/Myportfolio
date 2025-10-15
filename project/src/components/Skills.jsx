@@ -8,6 +8,7 @@ const Skills = () => {
       icon: <Code className="text-blue-600" size={24} />,
       skills: [
         { name: "HTML5", level: 95 },
+         { name: "Jquery", level: 60 },
         { name: "CSS3", level: 90 },
         { name: "JavaScript", level: 88 },
         { name: "React JS", level: 92 },
@@ -19,6 +20,7 @@ const Skills = () => {
       icon: <Database className="text-green-600" size={24} />,
       skills: [
         { name: "Node.js", level: 90 },
+        { name: "JAVA", level: 60 },
         { name: "Express.js", level: 88 },
         { name: "MongoDB", level: 85 },
         { name: "REST API", level: 92 },
@@ -41,7 +43,7 @@ const Skills = () => {
       icon: <Globe className="text-orange-600" size={24} />,
       skills: [
         { name: "Responsive Design", level: 90 },
-        { name: "UI/UX Design", level: 80 },
+      
         { name: "Project Management", level: 85 },
         { name: "Team Collaboration", level: 92 },
         { name: "Problem Solving", level: 88 }

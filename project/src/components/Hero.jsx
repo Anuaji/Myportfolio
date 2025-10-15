@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail, Phone } from 'lucide-react';
-
+import myResume from "../assets/Ajithkumar.pdf"
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-16">
@@ -19,8 +19,8 @@ const Hero = () => {
                 Full Stack Developer (MERN)
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
-                Passionate about creating customized solutions with 3 .1 + years of experience 
-                providing quality support to companies. Currently working at Advisorkhoj, 
+                Passionate about creating customized solutions with 3 .1 + years of experience
+                providing quality support to companies. Currently working at Advisorkhoj,
                 building innovative web applications with modern technologies.
               </p>
             </div>
@@ -65,11 +65,18 @@ const Hero = () => {
               >
                 Get In Touch
               </a>
-              <a
+              {/* <a
                 href="#projects"
                 className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-105 text-center"
               >
                 View My Work
+              </a> */}
+              <a
+                href={myResume}
+                download="AjithKumar_Resume.pdf"
+                className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-105 text-center"
+              >
+                Download My Resume
               </a>
             </div>
           </div>
